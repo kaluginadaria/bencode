@@ -1,6 +1,6 @@
 from bencode import Bencode, BencodeParseException
 
-bdecode = Bencode(coding='UTF-8')
+bdecode = Bencode()
 test_stings = ['2:qw', '0:', '12:qwertyqwerty']
 test_ints = ['i2e', 'i-2e', 'i0e']
 test_lists = ['l2:qw2:ace', 'le', 'll2:qw2:ace2:qwe']
